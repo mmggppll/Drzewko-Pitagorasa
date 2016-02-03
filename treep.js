@@ -34,8 +34,8 @@ function b() {
             n = Math.sin(a) * d;
       }
       
-			//l != i ? c.save() : c.restore();
-			c[l != i ? 'save' : 'restore']();
+			l != i ? c.save() : c.restore();
+			//c[l != i ? 'save' : 'restore']();
 
       p(-a, n, m, l + 1);
       p(Math.PI / 2 - a, m, n, l + 1);
